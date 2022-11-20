@@ -76,3 +76,85 @@ body{
     font-size: 12px;
     padding-top: 1rem;
 }
+@media (min-width : 1020px) {
+    .container{
+        width: 1200px;
+        padding: 4rem 0 1rem;
+    }
+    .first-text{
+        width: 460px;
+        
+    }
+    .first-text h1{
+        margin-left: 0;
+        padding-left: 0;
+        text-align: start;
+        font-size: 3rem;
+    }
+    .first-div .first-text p{
+        text-align: start;
+        font-size: 18px;
+    }
+    .first-div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 1rem;
+        
+    }
+  
+    .card-div{
+        display: flex;
+        gap: 1.5rem;
+        
+    } 
+    .second-text{
+        min-width: 520px;
+        text-align: start;
+
+    }
+    .second-text .reviews{
+        margin-right: 7rem;
+        width: 460px;
+        margin-left: auto;
+        padding: 16px 0;
+        text-align: start;
+        padding-left: 2rem;
+    }
+    .second-text .report{
+        width: 460px;
+        margin-left: auto;
+        margin-right: 3.5rem;
+        padding: 16px 0;
+        text-align: start;
+        padding-left: 2rem;
+        
+    }
+    .second-text h5{
+        display: inline;
+        font-size: 16px;
+        margin-left: 2rem;
+    }
+    .second-text .best{
+        width: 460px;
+        margin-left: auto;
+        padding: 16px 0;
+        text-align: start;
+        padding-left: 2rem;
+    }
+    .first-card, .second-card, .third-card {
+       
+       padding-top: 2rem;
+        height: 180px;
+    }
+    .first-card p, .second-card p, .third-card p{
+        line-height: 1.5;
+    }
+    .second-card{
+        margin-top: 1rem;
+        box-sizing: border-box;
+    }
+    .third-card{
+        margin-top: 2rem;
+    }
+}
