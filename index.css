@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@400;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lexend Deca', sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.container{
+    width: 360px;
+    padding: 0 1rem;
+    margin: 2rem 0 4rem;
+}
+.container h1{
+    text-align: center;
+    padding: 1.5rem;
+    
+    color: hsl(300, 43%, 22%);
+    line-height: 1;
+}
+.container  .first-text p{
+   color:  hsl(303, 10%, 53%);
+   text-align: center;
+   margin-bottom: 2rem;
+
+
+}
+.second-text .reviews,.report ,.best{
+    width: 100%;
+    background-color: hsl(300, 24%, 96%) ;
+    text-align: center;
+    color: hsl(300, 43%, 22%) ;
+    padding: .5rem;
+    margin-bottom:1rem ;
+    border-radius: 8px;
+}
+.second-text .reviews h5,.report h5 ,.best h5{
+   padding:5px 0 ; 
+}
+.card-div{
+    margin-top: 2.5rem;
+}
+.first-card .img-part, .second-card .img-part, .third-card .img-part{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    gap: 1rem;
+}
+.first-card, .second-card, .third-card {
+   background-color: hsl(300, 43%, 22%);
+   padding: 1.5rem;
+   margin-bottom: 1rem;
+   border-radius: 8px;
+}
+.first-card .img-part p, .second-card .img-part p, .third-card .img-part p{
+    font-size: 12px;
+    color: hsl(333, 80%, 67%);
+}
+.first-card .img-part h5, .second-card .img-part h5, .third-card .img-part h5{
+    color: hsl(0, 0%, 100%);
+}
+.first-card .img-part img, .second-card .img-part img, .third-card .img-part img{
+    width: 40px;
+    border-radius: 50%;
+}
+.card-div .text-f p,.text-s p,.text-t p{
+    color: hsl(0, 0%, 100%);
+    font-size: 12px;
+    padding-top: 1rem;
+}
