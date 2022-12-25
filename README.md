@@ -1,7 +1,7 @@
 ### Links
 
 
-- Live Site URL: [Add live site URL here](https://m-m-h-rupom.github.io/-Social-proof-section/)
+- Live Site URL: [live site URL here](https://m-m-h-rupom.github.io/-Social-proof-section/)
 
 # Frontend Mentor - Social proof section
 
